@@ -1,0 +1,1 @@
+This is a repository containing practice coding questions gathered from various sources on the web, and solutions I have found to the problems.
