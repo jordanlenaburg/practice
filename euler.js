@@ -200,7 +200,7 @@ const greatestProduct = (num) => {
     return greatest;
 };
 
-const sumArray = (arr) => {
+const sumArrayForEach = (arr) => {
     let sum = 0;
     let isNumAdd = (curr) => {
         if
@@ -216,12 +216,29 @@ const sumArray = (arr) => {
             return
         }
 
-    }
-    arr.forEach(isNumAdd)
+    };
+    arr.forEach(isNumAdd);
     return sum;
-}
+};
 
-console.log(sumArray([1, 2, NaN]));
-console.log(sumArray([1, 2]));
-console.log(sumArray([1, 2, [3, [4], 5]]));
-console.log(sumArray([1, 2, 'hi']));
+const sumArrayReduce = (arr) => {
+    return arr.reduce((add, curr) => {
+        if
+        (!curr) {
+            return
+        } else if
+        (typeof curr === "number") {
+            return add + curr;
+        } else if
+        (curr instanceof Array) {
+            return curr.reduce(sumArrayReduce)
+        } else {
+            return
+        }
+    }, 0);
+};
+
+console.log(sumArrayReduce([1, 2, NaN]));
+console.log(sumArrayReduce([1, 2]));
+console.log(sumArrayReduce([1, 2, [3, [4, [1, [2, {age: 18}]]], 5]]));
+console.log(sumArrayReduce([1, 2, 'hi']));
