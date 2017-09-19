@@ -222,20 +222,21 @@ const sumArrayForEach = (arr) => {
 };
 
 const sumArrayReduce = (arr) => {
-    return arr.reduce((add, curr) => {
+    let reduceFunction = (add, curr) => {
         if
         (!curr) {
-            return
+            return add + 0;
         } else if
         (typeof curr === "number") {
             return add + curr;
         } else if
         (curr instanceof Array) {
-            return curr.reduce(sumArrayReduce)
+            return add + curr.reduce(reduceFunction)
         } else {
-            return
+            return add + 0;
         }
-    }, 0);
+    };
+    return arr.reduce(reduceFunction)
 };
 
 console.log(sumArrayReduce([1, 2, NaN]));
