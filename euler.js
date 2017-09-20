@@ -225,7 +225,7 @@ const sumArrayReduce = (arr) => {
     let reduceFunction = (add, curr) => {
         if
         (!curr) {
-            return add + 0;
+            return add;
         } else if
         (typeof curr === "number") {
             return add + curr;
@@ -233,13 +233,63 @@ const sumArrayReduce = (arr) => {
         (curr instanceof Array) {
             return add + curr.reduce(reduceFunction)
         } else {
-            return add + 0;
+            return add;
         }
     };
-    return arr.reduce(reduceFunction)
+    return arr.reduce(reduceFunction, 0)
 };
 
-console.log(sumArrayReduce([1, 2, NaN]));
-console.log(sumArrayReduce([1, 2]));
-console.log(sumArrayReduce([1, 2, [3, [4, [1, [2, {age: 18}]]], 5]]));
-console.log(sumArrayReduce([1, 2, 'hi']));
+// UNSOLVED
+// A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
+//             a^2 + b^2 = c^2
+//     For example, 3^2 + 4^2 = 9 + 16 = 25 = 5^2.
+// There exists exactly one Pythagorean triplet for which a + b + c = 1000.
+// Find the product abc.
+
+const pythagoreanTriplet = (total) => {
+    // establish array of squares
+    let sqArray = [1, 4, 9];
+    // create function to check previous
+    let checkFunc = (num) => {
+        for (let b = 1; b < sqArray.length - 1; b++) {
+            for (let a = 0; a < i; a++) {
+                if (a^2 + b^2 === )
+            }
+        }
+    }
+
+
+
+
+
+
+    // find triplet
+    let triplet = (c) => {
+        let a = c-2;
+        let b = c-1;
+        // check that c is a natural number
+        if (Math.sqrt(c) === Math.round(Math.sqrt(c))) {
+            // start checking numbers lower until
+
+        }
+    };
+
+
+
+    // a^2 + b^2 = c^2
+    //
+
+
+
+
+    let recursiveCheck = (num) => {
+        if (Math.sqrt(num) === Math.round(Math.sqrt(num))) {
+            return num;
+        } else {
+            return recursiveCheck(num + 1)
+        }
+    }
+    // a + b + c = total
+};
+
+
