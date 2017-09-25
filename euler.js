@@ -239,24 +239,26 @@ const sumArrayReduce = (arr) => {
     return arr.reduce(reduceFunction, 0)
 };
 
-// UNSOLVED
+// SOLVED
 // A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
 //             a^2 + b^2 = c^2
 //     For example, 3^2 + 4^2 = 9 + 16 = 25 = 5^2.
 // There exists exactly one Pythagorean triplet for which a + b + c = 1000.
 // Find the product abc.
-let sqArray = [1, 4, 9, 16];
+let sqArray = [1, 4, 9];
 const pythagoreanTriplet = (total, array) => {
-    // create function to check previous
+    let c = array.length+1;
+    console.log(c);
     for (let b = 0; b < array.length; b++){
-        for (let a = 0; a < array.length; a++){
-            if (array[a] + array[b] === total) {
-                console.log(array[a] + " + " + array[b] + " = " + total);
-                return a + b + sqArray.length
+        for (let a = 0; a < b; a++){
+            if (array[a] + array[b] === Math.pow(c, 2) && a+1 + b+1 + c === total) {
+                console.log(a + " + " + b + " + " + c + " = " + total);
+                console.log(array[a] + " + " + array[b] + " = " + c);
+                return (a+1) * (b+1) * c
             }
         }
     }
-    sqArray.push(Math.pow(sqArray.length));
+    sqArray.push(Math.pow(array.length+1, 2));
     return pythagoreanTriplet(total, sqArray)
 };
 console.log(pythagoreanTriplet(1000, sqArray));

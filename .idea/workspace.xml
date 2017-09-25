@@ -17,24 +17,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="euler.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="euler.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/euler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="261" column="21" lean-forward="false" selection-start-line="261" selection-start-column="21" selection-end-line="261" selection-end-column="21" />
+            <state relative-caret-position="474">
+              <caret line="263" column="47" lean-forward="true" selection-start-line="263" selection-start-column="47" selection-end-line="263" selection-end-column="47" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="582286ae-8e9d-4027-bef8-805ce0ae9d59_NameValuePair.xml" pinned="false" current-in-tab="true">
-        <entry file="file://X:/oracle_files/test/Firelight/archive/582286ae-8e9d-4027-bef8-805ce0ae9d59_NameValuePair.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="617" column="25" lean-forward="true" selection-start-line="617" selection-start-column="25" selection-end-line="617" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -72,7 +62,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="256" />
     <option name="y" value="45" />
     <option name="width" value="1466" />
@@ -94,6 +84,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,8 +97,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,15 +134,17 @@
       <workItem from="1505486969856" duration="1675000" />
       <workItem from="1505496262069" duration="9766000" />
       <workItem from="1505933283545" duration="7156000" />
-      <workItem from="1506097045623" duration="4278000" />
+      <workItem from="1506097045623" duration="4878000" />
+      <workItem from="1506348483176" duration="4041000" />
+      <workItem from="1506375308632" duration="2071000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53362000" />
+    <option name="totallyTimeSpent" value="60074000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="256" y="45" width="1466" height="975" extended-state="1" />
+    <frame x="256" y="45" width="1466" height="975" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14985995" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -184,6 +176,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/euler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/euler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/euler.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -258,21 +270,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/euler.js">
+    <entry file="file://X:/oracle_files/test/Firelight/archive/582286ae-8e9d-4027-bef8-805ce0ae9d59_NameValuePair.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="261" column="21" lean-forward="false" selection-start-line="261" selection-start-column="21" selection-end-line="261" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="273">
+          <caret line="617" column="25" lean-forward="true" selection-start-line="617" selection-start-column="25" selection-end-line="617" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://X:/oracle_files/test/Firelight/archive/582286ae-8e9d-4027-bef8-805ce0ae9d59_NameValuePair.xml">
+    <entry file="file://$PROJECT_DIR$/euler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="617" column="25" lean-forward="true" selection-start-line="617" selection-start-column="25" selection-end-line="617" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="474">
+          <caret line="263" column="47" lean-forward="true" selection-start-line="263" selection-start-column="47" selection-end-line="263" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
