@@ -200,6 +200,8 @@ const greatestProduct = (num) => {
     return greatest;
 };
 
+
+// Return the sum of all numbers in an array
 const sumArrayForEach = (arr) => {
     let sum = 0;
     let isNumAdd = (curr) => {
@@ -248,17 +250,22 @@ const sumArrayReduce = (arr) => {
 let sqArray = [1, 4, 9];
 const pythagoreanTriplet = (total, array) => {
     let c = array.length+1;
-    console.log(c);
     for (let b = 0; b < array.length; b++){
         for (let a = 0; a < b; a++){
             if (array[a] + array[b] === Math.pow(c, 2) && a+1 + b+1 + c === total) {
-                console.log(a + " + " + b + " + " + c + " = " + total);
-                console.log(array[a] + " + " + array[b] + " = " + c);
-                return (a+1) * (b+1) * c
+                 return (a+1) * (b+1) * c
             }
         }
     }
     sqArray.push(Math.pow(array.length+1, 2));
     return pythagoreanTriplet(total, sqArray)
 };
-console.log(pythagoreanTriplet(1000, sqArray));
+
+// UNSOLVED
+// The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
+// Find the sum of all the primes below two million.
+const sumOfPrimes = (total) => {
+
+};
+
+console.log(sumOfPrimes(2000000));
