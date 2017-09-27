@@ -264,8 +264,25 @@ const pythagoreanTriplet = (total, array) => {
 // UNSOLVED
 // The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
 // Find the sum of all the primes below two million.
-const sumOfPrimes = (total) => {
-
+const sumOfPrimes = (num) => {
+    // establish count
+    let count = 2;
+    // for loop to check number
+    for (let i = 3; i <= num; i+=2) {
+        // check all num less than i
+        for (let j = 2; j < i; j++) {
+            // check if i % j === 0, if so skip to next iteration
+            if (i % j === 0) {
+                break
+            } else if (j === i - 1) { // if loop isn't broken, add to count
+                count += i;
+            }
+            // if count === num, return i (current iteration checking)
+            if (i >= num) {
+                return count;
+            }
+        }
+    }
 };
 
 console.log(sumOfPrimes(2000000));
